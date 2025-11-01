@@ -768,13 +768,13 @@ class MockDevicesService {
     await new Promise(resolve => setTimeout(resolve, 800));
     return STATIC_DEVICES;
   }
-
-  async getAnalytics(deviceId: string): Promise<AnalyticsData> {
+//deviceId: string
+  async getAnalytics(): Promise<AnalyticsData> {
     await new Promise(resolve => setTimeout(resolve, 500));
     return STATIC_ANALYTICS;
   }
-
-  async getSensorReadings(deviceId: string): Promise<SensorReading[]> {
+//deviceId: string
+  async getSensorReadings(): Promise<SensorReading[]> {
     await new Promise(resolve => setTimeout(resolve, 300));
     return STATIC_SENSOR_READINGS;
   }

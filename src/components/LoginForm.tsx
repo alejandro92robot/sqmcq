@@ -18,7 +18,6 @@ import {
   Email as EmailIcon,
   Lock as LockIcon,
   Login as LoginIcon,
-  Security as SecurityIcon,
   Diamond as DiamondIcon
 } from '@mui/icons-material';
 import { useAuth } from '../hooks/useAuth';
