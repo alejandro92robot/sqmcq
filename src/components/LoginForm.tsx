@@ -208,7 +208,7 @@ export const LoginForm: React.FC = () => {
                     fontSize: { xs: '1.75rem', sm: '2rem' }
                   }}
                 >
-                  SQM MINERÍA
+                  Centro de Control SQM 
                 </Typography>
                 
                 <Typography 
@@ -220,7 +220,7 @@ export const LoginForm: React.FC = () => {
                     fontSize: { xs: '0.9rem', sm: '1rem' }
                   }}
                 >
-                  Sistema de Monitoreo de Yodo
+                  Sistema de Monitoreo
                 </Typography>
                 
                 <Typography 
@@ -230,7 +230,7 @@ export const LoginForm: React.FC = () => {
                     fontSize: { xs: '0.75rem', sm: '0.8rem' }
                   }}
                 >
-                  Fluorescencia de Rayos X - Control y Análisis
+                  Control y Análisis
                 </Typography>
               </Box>
 
@@ -479,7 +479,7 @@ export const LoginForm: React.FC = () => {
                 fontSize: { md: '1rem', lg: '1.1rem' }
               }}
             >
-              Monitoreo en tiempo real de procesos mineros con la más alta tecnología en fluorescencia de rayos X
+              Monitoreo en tiempo real de procesos mineros con la más alta tecnología
             </Typography>
           </Box>
         </Box>
